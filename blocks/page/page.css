@@ -19,6 +19,28 @@
   margin: 0;
   font-weight: 600;
   font-size: 60px;
+  position: relative;
+}
+
+.section-title:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  inset: 0 0 0 0;
+  background: #ff3c4150;
+  /*z-index: -1;*/
+  transition: transform .9s ease;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+}
+
+.section-title:hover:before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 .section-subtitle {
