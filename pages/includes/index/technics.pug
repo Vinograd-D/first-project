@@ -1,0 +1,11 @@
+- var cardItem = [{ text1: "Два вида внимания", text2: "Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.", hrefImage: "images/cards-attention.png", altText: "Два вида внимания"},{text1: "Recall", text2: "Вспоминайте изученное — это позволит соединить разрозненные порции памяти.", hrefImage: "images/cards-recall.png", altText: "Recall"},{text1: "Интерливинг", text2: "Изучайте несколько навыков одновременно, они обогащают друг друга.", hrefImage: "images/cards-interliving.png", altText: "Интерливинг"},{text1: "Вопросы", text2: "Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.", hrefImage: "images/cards-question.png", altText: "Вопросы"},{text1: "Иллюзия компетентности", text2: "Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.", hrefImage: "images/cards-competence.png", altText: "Иллюзия компетентности"}]
+
+
+section.technics.technics__content
+    +sectiontitle("Техники обучения","Пять практик от Барбары Оакли")
+    .cards
+        for items in cardItem
+            .cards__item
+                img(src=items.hrefImage alt=items.altText).cards__image
+                h2.cards__title=items.text1
+                p.cards__description=items.text2
