@@ -8,30 +8,12 @@
   /*  выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Inter', Arial, sans-serif;
 }
-.logo {
-  width: 228px;
-  height: 32px;
-}
 
-.section-title {
-  line-height: 1.15;
-  text-align: center;
-  margin: 0;
-  font-weight: 600;
-  font-size: 60px;
-}
 
-.section-subtitle {
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  margin: 20px 0 0 0;
-}
 
-.section-title_theme_dark {
-  color: #fff;
-}
 
-.section-subtitle_theme_dark {
-  color: #fff;
-}
+
+
+
+
+
