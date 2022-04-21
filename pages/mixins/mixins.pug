@@ -16,16 +16,16 @@ block mix
     //
     mixin tables(textH, tableText, tableText2)
         if (tableText2)
-            .table__cell
+            li.table__cell
                 h3.table__heading=textH
                 p.table__text=tableText
                 p.table__text=tableText2
         else
-            .table__cell
+            li.table__cell
                 h3.table__heading=textH
                 p.table__text=tableText
     mixin tablesDark(textH, tableText)
-        .table__cell.table__cell_theme_dark
+        li.table__cell.table__cell_theme_dark
             h3.table__heading.table__heading_theme_dark=textH
             p.table__text.table__text_theme_dark=tableText
 

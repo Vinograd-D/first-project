@@ -3,9 +3,9 @@
 
 section.technics
     +sectiontitle("Техники обучения","Пять практик от Барбары Оакли")
-    .cards
+    ul.cards
         for items in cardItem
-            .cards__item
+            li.cards__item
                 img(src=items.hrefImage alt=items.altText).cards__image
                 h2.cards__title=items.text1
                 p.cards__description=items.text2
