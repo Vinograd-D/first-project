@@ -4,5 +4,6 @@
   font-size: 120px;
   line-height: 1.15;
   text-align: center;
-  width: 648px;
+  max-width: 648px;
+  width: 100%;
 }

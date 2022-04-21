@@ -1,3 +1,4 @@
 .table__cell {
+  /*width: 250px; вместо width flex-basis можно ставить*/
   flex-basis: 25%;
 }

@@ -3,5 +3,6 @@
   font-size: 18px;
   color: #2f80ed;
   font-weight: 400;
-  width: 175px;
+  max-width: 175px;
+  width: 100%;
 }
