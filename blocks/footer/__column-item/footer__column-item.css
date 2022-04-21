@@ -1,7 +1,7 @@
 .footer__column-item {
   padding-bottom: 10px;
   list-style-type: none;
-  transition: opasitu .2s linear;
+  transition: opasity .2s linear;
 }
 .footer__column-item:last-of-type {
   padding-bottom: 0;
