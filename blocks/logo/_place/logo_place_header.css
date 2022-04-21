@@ -4,4 +4,5 @@
   left: 64px;
   width: 228px;
   background: url("../../../images/logo_place_header.svg");
+  z-index: 1;
 }
