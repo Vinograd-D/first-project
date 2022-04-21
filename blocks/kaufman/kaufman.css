@@ -3,4 +3,5 @@
   overflow: hidden;
   background-color: #1F1F1F;
   padding: 90px 0;
+  z-index: 1;
 }

@@ -9,4 +9,5 @@
   width: 877px;
   height: 877px;
   top: 0;
+  z-index: -1;
 }

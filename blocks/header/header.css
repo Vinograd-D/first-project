@@ -8,4 +8,5 @@
   align-items: center;
   overflow: hidden;
   background-color: #F2F2F2;
+  z-index: 1;
 }
